@@ -95,8 +95,9 @@ tileUtil.createSpritesOnTiles(img`
     ................................
     ................................
     `, SpriteKind.Player)
+
 controller.A.onEvent(ControllerButtonEvent.Pressed, function() {
-    let Pprojectile = sprites.createProjectileFromSprite(img`
+    let pprojectile = sprites.createProjectileFromSprite(img`
         . . . b b . . .
         . . b 5 5 b . .
         . b 5 d 1 5 b .
@@ -108,3 +109,4 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function() {
     `,joe, 0, -200)
 })
 boss(1,1)
+

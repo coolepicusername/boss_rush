@@ -76,5 +76,4 @@ bossSprite.setPosition(136,50)
 
 game.onUpdate(function() {
 
-
 })
