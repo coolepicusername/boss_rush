@@ -55,6 +55,25 @@ namespace myTiles {
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
 `, [myTiles.transparency16,sprites.castle.tileGrass2,sprites.castle.tileGrass1,sprites.castle.tileGrass3,sprites.castle.tilePath1,sprites.castle.tilePath4,sprites.castle.tilePath7,sprites.castle.tilePath2,sprites.castle.tilePath5,sprites.castle.tilePath8,sprites.castle.tilePath3,sprites.castle.tilePath6,sprites.castle.tilePath9,myTiles.tile1,myTiles.tile9], TileScale.Sixteen);
+            case "level3":
+            case "level3":return tiles.createTilemap(hex`100010000101010101010101010101010101010101010101010101010101010101010101010107050506050505060505050801010101020e0e0e0e0e0e0e0e0e0e0401010101020e0d0e0e0c0e0e0e0f0e0901010101020e0e0e0e0e0f0e0e0e0e0401010101020e0e0e0e0e0e0e0d0e0e0401010101020e0e0d0e0e0e0e0e0e0e0401010101020e0e0e0e0e0e0c0e0e0e0901010101020e0e0e0e0e0e0e0f0e0e0401010101020e0f0c0e0d0e0e0e0e0e0401010101020e0e0e0e0e0e0e0e0e0e04010101010a030303030303030303030b0101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101`, img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . 2 2 2 2 2 2 2 2 2 2 2 2 . . 
+. . 2 . . . . . . . . . . 2 . . 
+. . 2 . . . . . . . . . . 2 . . 
+. . 2 . . . . . . . . . . 2 . . 
+. . 2 . . . . . . . . . . 2 . . 
+. . 2 . . . . . . . . . . 2 . . 
+. . 2 . . . . . . . . . . 2 . . 
+. . 2 . . . . . . . . . . 2 . . 
+. . 2 . . . . . . . . . . 2 . . 
+. . 2 . . . . . . . . . . 2 . . 
+. . 2 2 2 2 2 2 2 2 2 2 2 2 . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`, [myTiles.transparency16,myTiles.tile3,sprites.dungeon.greenOuterWest0,sprites.dungeon.greenOuterSouth0,sprites.dungeon.greenOuterEast0,sprites.dungeon.greenOuterNorth0,sprites.dungeon.greenOuterNorth1,sprites.dungeon.greenOuterNorthWest,sprites.dungeon.greenOuterNorthEast,sprites.dungeon.greenOuterEast1,sprites.dungeon.greenOuterSouthEast,sprites.dungeon.greenOuterSouthWest,sprites.dungeon.floorLight4,sprites.dungeon.floorLightMoss,sprites.dungeon.floorLight0,sprites.dungeon.floorLight1], TileScale.Sixteen);
         }
         return null;
     })
